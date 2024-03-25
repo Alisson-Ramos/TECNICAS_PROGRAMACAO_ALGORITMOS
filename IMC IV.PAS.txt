@@ -1,0 +1,23 @@
+program IMC;
+uses crt;
+
+var
+
+a: integer;
+b: integer;
+c: integer;
+e: integer;
+f: real;
+
+
+begin
+CLRSCR;
+writeln ('sua altura:');
+read (a);
+writeln ('seu peso:');
+read (b);
+e:=a*a;
+f:=b/a;
+writeln ('Seu IMC ‚ de:', f:6:2);
+readkey;
+end.

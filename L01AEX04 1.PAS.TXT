@@ -1,0 +1,20 @@
+program L01AEX04;
+uses crt;
+
+var
+b: real;
+h: real;
+m: real;
+area: real;
+
+begin
+CLRSCR;
+write ('digite o valor da base do trƒngulo: ');
+read(b);
+write ('digite o valor da altura do triƒngulo: ');
+read(h);
+m:=b*h;
+area:=m/2;
+write ('O valor da  rea do triƒngulo ‚: ',area:5:2);
+readkey;
+end.

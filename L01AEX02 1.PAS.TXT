@@ -1,0 +1,16 @@
+program L01AEX02;
+uses crt;
+
+var
+a :real;
+area:real;
+
+begin
+CLRSCR;
+write('digite o valor da aresta do quadrado: ');
+read(a);
+area:=a*a;
+write ('a  rea do quadrado ‚: ',area:5:2);
+readkey;
+end.
+

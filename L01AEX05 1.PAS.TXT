@@ -1,0 +1,22 @@
+program L01AEX05;
+uses crt;
+
+var
+a,b,c,d,s: integer;
+media: real;
+
+begin
+CLRSCR;
+write ('digite o primeiro valor: ');
+read(a);
+write ('digite o segundo valor: ');
+read(b);
+write ('digite o terceiro valor: ');
+read(c);
+write ('digite o quarto valor: ');
+read(d);
+s:=a+b+c+d;
+media:=s/4;
+write ('o resultado da m‚dia ‚',media:5:2);
+readkey;
+end.

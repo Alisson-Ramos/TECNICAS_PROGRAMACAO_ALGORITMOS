@@ -1,0 +1,17 @@
+program L01AEX03;
+uses crt;
+
+var
+d :real;
+s :real;
+area:real;
+begin
+CLRSCR;
+write ('digite o valor da diagonal: ');
+read (d);
+s:= d*d;
+area:=s/2;
+write ('o resultado da  rea ‚: ',area:7:2);
+readkey;
+
+end.
